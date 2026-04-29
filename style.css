@@ -53,12 +53,14 @@ body {
     border-radius: 5px;
     border: none;
 }
-.hero-btn :hover{
+.hero-btn:hover{
     background-color: #0073e6;
+    cursor: pointer;
 }
 .read-more {
     background-color: #CC6955;
     border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 .read-more div{
     padding-bottom: 30px;
@@ -80,6 +82,12 @@ body {
     padding: 10px;
     width: 8rem;
     font-size: 15px;
+}
+
+.read-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 .explore{
@@ -121,11 +129,11 @@ body {
 }
 .card{
     display: flex;
-    max-width: 1200px;
     background: white;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    margin: 0 35px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 .explo-img{
     flex: 1;
@@ -150,6 +158,7 @@ body {
     padding: 40px 20px;
     color: white;
     margin-bottom: 40px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
 .stat {
@@ -184,10 +193,13 @@ body {
     width: 300px;
     border-radius: 25px;
     color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 .sec-1{
     background-color: #e0dede;
-    border-bottom: solid 40px #e0dede;
+    background-image: url("images/bgimg2.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .cycle-content{
@@ -218,6 +230,7 @@ body {
     border-radius: 20px;
     border: solid 1px #b45744;
     width: 450px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 .news-card div{
     padding-bottom: 30px;
@@ -300,6 +313,7 @@ input{
     display: flex; 
     border-radius: 25px;
     padding: 35px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
     
 }
 .work-item{
